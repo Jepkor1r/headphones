@@ -1,5 +1,5 @@
 ## DESIGN FROM SCRATCH!
 # HTML CSS RESPONSIVE DESIGN
-In this project,Iam going to create a design from scratch using <a href="https://www.figma.com/file/pXHP77HoyiGKqU8v6ZF2EZ/Holberton-School---Headphone-company-(Copy)?type=design&node-id=0-1&mode=design&t=qrp4nahq1Cv8yebi-0">Headphone Company </a> as a reference.
+In this project,Iam going to create a design from scratch using <a href="https://www.figma.com/file/pXHP77HoyiGKqU8v6ZF2EZ/Holberton-School---Headphone-company-(Copy)?type=design&node-id=0-1&mode=design&t=qrp4nahq1Cv8yebi-0">Headphone Company </a> as a reference.<br>
 You can practise with me! So to have access to all designs of <a href="https://www.figma.com/file/pXHP77HoyiGKqU8v6ZF2EZ/Holberton-School---Headphone-company-(Copy)?type=design&node-id=0-1&mode=design&t=qrp4nahq1Cv8yebi-0"> Headphone Company</a> , create an account in <a href="https://www.figma.com">Figma</a> and "duplicate it your drafts". <br>
-How to "duplicate in your drafts": <br> <img src="https://s3.amazonaws.com/alx-intranet.hbtn.io/uploads/medias/2020/3/559ad8d43fb61e310e2b.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIARDDGGGOUSBVO6H7D%2F20230710%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20230710T142140Z&X-Amz-Expires=86400&X-Amz-SignedHeaders=host&X-Amz-Signature=01426c9e9281c47d95c17da9d4a25b3c24fcc230417fb6da8c6ad936d885ace0" alt="duplicate to your drafts">
+How to "duplicate in your drafts": <br> <img src="../Downloads/Duplicatedrafts.png" alt="duplicate to your drafts">
