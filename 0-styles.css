@@ -5,17 +5,30 @@
     src: url('../fonts/SourceSansPro-Bold.otf');
 }
 
+/* Media query for mobile devices
+ ==================================== */
+
+ @media (max-width: 480px) {
+    .media {
+     display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+    }
 
 .main {
     background-image: url(../headphones/IMG/background.png);
     background-size: cover;
     background-repeat: no-repeat;
+    max-width: 1000px;
 }
 
 .header{
     display: flex;
     justify-content: space-between;
 }
+
+
+@media screen and (max-width: 480px) {
 
 .logo{
     width: 161;
@@ -62,4 +75,5 @@
 .main-part p{
     font-family: 'SourceSansPro', SourceSansPro-Regular;
     font-size: 16;
+}
 }
