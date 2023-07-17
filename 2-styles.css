@@ -90,17 +90,30 @@
 /*What we do section
 ======================== */
 
-.what-we-do{
+.about-us{
     display: flex;
     flex-direction: column;
     background-color: white;
     max-width: 1000px;
     padding: 20px;
     margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-.what-we-do h3{
+.about-us-heading h3{
     text-align: center;
+    font-family: 'SourceSansPro', SourceSansPro-Bold;
+    font-size: 24;
+
+}
+
+.about-us-heading p{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-family: 'SourceSansPro', SourceSansPro-Regular;
+    font-size: 16;
 }
 
 .icons {
@@ -109,3 +122,84 @@
     justify-content: space-between;
 }
 
+.frequency h5{
+    font-family: 'SourceSansPro', SourceSansPro-Bold;
+    font-size: 17;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.frequency p{
+    font-family: 'SourceSansPro', SourceSansPro-Regular;
+    font-size: 10;
+}
+
+.video h5{
+    font-family: 'SourceSansPro', SourceSansPro-Bold;
+    font-size: 17;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.video p{
+    font-family: 'SourceSansPro', SourceSansPro-Regular;
+    font-size: 10;  
+}
+
+.music h5{
+    font-family: 'SourceSansPro', SourceSansPro-Bold;
+    font-size: 17;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.music p{
+    font-family: 'SourceSansPro', SourceSansPro-Regular;
+    font-size: 10;  
+}
+
+.hearing h5{
+    font-family: 'SourceSansPro', SourceSansPro-Bold;
+    font-size: 17;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.hearing p{
+    font-family: 'SourceSansPro', SourceSansPro-Regular;
+    font-size: 10;  
+}
+
+/*our results section
+====================== */
+.results{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./IMG/background\(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.results-heading h3{
+    text-align: center;
+    font-family: 'SourceSansPro', SourceSansPro-Bold;
+    font-size: 24;
+}
+
+.results-heading p{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-family: 'SourceSansPro', SourceSansPro-Regular;
+    font-size: 16;  
+}
+
+.image{
+    display: flex;
+}
