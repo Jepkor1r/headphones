@@ -1,0 +1,205 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Font definition
+============ */
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('../fonts/SourceSansPro-Bold.otf');
+}
+
+/* Media query for mobile devices
+ ==================================== */
+
+.main {
+    background-image: url(../headphones/IMG/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;  
+}
+
+.logo{
+    width: 161;
+    height: 32;
+}
+
+.menu{
+    font-family: 'SourceSansPro', SourceSansPro-Bold; 
+}
+
+.menu a{
+    color: white;
+    padding: 20px;
+}
+
+.menu a:hover{
+    color: #ff6565;
+}
+
+.main-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 300px;
+    padding-bottom: 20px;
+    
+}
+
+.title{
+    font-family: 'SourceSansPro', SourceSansPro-Bold;
+    font-size: 32;   
+}
+
+.sub-title{
+    font-family:  'SourceSansPro', SourceSansPro-Bold;
+    font-size: 16;
+    margin-bottom: 80px;
+}
+
+.main-part button{
+    background-color: #ff6565;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: 'SourceSansPro', SourceSansPro-Bold;
+    font-size: 14;
+    width: 20;
+    height: 20;
+}
+
+.main-part p{
+    font-family: 'SourceSansPro', SourceSansPro-Regular;
+    font-size: 16;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+/*What we do section
+======================== */
+
+.about-us{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.about-us-heading h3{
+    text-align: center;
+    font-family: 'SourceSansPro', SourceSansPro-Bold;
+    font-size: 24;
+
+}
+
+.about-us-heading p{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-family: 'SourceSansPro', SourceSansPro-Regular;
+    font-size: 16;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.frequency h5{
+    font-family: 'SourceSansPro', SourceSansPro-Bold;
+    font-size: 17;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.frequency p{
+    font-family: 'SourceSansPro', SourceSansPro-Regular;
+    font-size: 10;
+}
+
+.video h5{
+    font-family: 'SourceSansPro', SourceSansPro-Bold;
+    font-size: 17;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.video p{
+    font-family: 'SourceSansPro', SourceSansPro-Regular;
+    font-size: 10;  
+}
+
+.music h5{
+    font-family: 'SourceSansPro', SourceSansPro-Bold;
+    font-size: 17;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.music p{
+    font-family: 'SourceSansPro', SourceSansPro-Regular;
+    font-size: 10;  
+}
+
+.hearing h5{
+    font-family: 'SourceSansPro', SourceSansPro-Bold;
+    font-size: 17;
+    margin-top: 30px;
+    margin-bottom: 10px;
+}
+
+.hearing p{
+    font-family: 'SourceSansPro', SourceSansPro-Regular;
+    font-size: 10;  
+}
+
+/*our results section
+====================== */
+.results{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-image: url(./IMG/background\(1\).png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.results-heading h3{
+    text-align: center;
+    font-family: 'SourceSansPro', SourceSansPro-Bold;
+    font-size: 24;
+}
+
+.results-heading p{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    font-family: 'SourceSansPro', SourceSansPro-Regular;
+    font-size: 16;  
+}
+
+.image{
+    display: flex;
+}
