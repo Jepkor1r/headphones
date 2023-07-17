@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Font definition
+============ */
+@font-face {
+    font-family: 'SourceSansPro';
+    src: url('../fonts/SourceSansPro-Bold.otf');
+}
+
+/* Media query for mobile devices
+ ==================================== */
+
+.main {
+    background-image: url(../headphones/IMG/background.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    max-width: 1000px;
+    margin: 0 auto;
+    position: relative;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+    padding: 20px;  
+}
+
+.logo{
+    width: 161;
+    height: 32;
+}
+
+.menu{
+    font-family: 'SourceSansPro', SourceSansPro-Bold; 
+}
+
+.menu a{
+    color: white;
+    padding: 20px;
+}
+
+.menu a:hover{
+    color: #ff6565;
+}
+
+.main-part{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    padding-top: 300px;
+    padding-bottom: 20px;
+    
+}
+
+.title{
+    font-family: 'SourceSansPro', SourceSansPro-Bold;
+    font-size: 32;   
+}
+
+.sub-title{
+    font-family:  'SourceSansPro', SourceSansPro-Bold;
+    font-size: 16;
+    margin-bottom: 80px;
+}
+
+.main-part button{
+    background-color: #ff6565;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-family: 'SourceSansPro', SourceSansPro-Bold;
+    font-size: 14;
+    width: 20;
+    height: 20;
+}
+
+.main-part p{
+    font-family: 'SourceSansPro', SourceSansPro-Regular;
+    font-size: 16;
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+/*What we do section
+======================== */
+
+.what-we-do{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    max-width: 1000px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.what-we-do h3{
+    text-align: center;
+}
+
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
