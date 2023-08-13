@@ -73,19 +73,24 @@
 .main-part button{
     background-color: #ff6565;
     border: none;
-    border-radius: 10px;
+    border-radius: 20px;
     color: white;
     font-family: 'SourceSansPro', SourceSansPro-Bold;
     font-size: 14;
-    width: 20;
-    height: 20;
+    width: 120%;
+    height: 40px;
 }
 
+.main-part button:hover{
+    color: rgb(196, 196, 196);
+    opacity: 1;
+}
 .main-part p{
     font-family: 'SourceSansPro', SourceSansPro-Regular;
     font-size: 16;
     margin-top: 80px;
     margin-bottom: 80px;
+    max-width: 650px;
 }
 /*What we do section
 ======================== */
@@ -174,7 +179,7 @@
 ====================== */
 .results{
     display: flex;
-    justify-content: center;
+    align-items: center;
     flex-direction: column;
     background-image: url(./IMG/background\(1\).png);
     background-size: cover;
@@ -186,39 +191,120 @@
     margin-right: auto;
 }
 
-.results-heading h3{
+.results-heading h2{
     text-align: center;
     font-family: 'SourceSansPro', SourceSansPro-Bold;
     font-size: 24;
 }
 
 .results-heading p{
-    text-align: center;
     margin-top: 50px;
     margin-bottom: 80px;
+    max-width: 650px;
     font-family: 'SourceSansPro', SourceSansPro-Regular;
     font-size: 16;  
 }
 
-.image{
+.polgon-content{
     display: flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-bottom: 60px; 
 }
 
+.polygon-image{
+  position: relative;
+}
 
+.polygon-image p{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+/* Contact Section
+======================*/
+.contact{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+}
+.contact h2{
+    margin-bottom: 10px;
+    margin-top: 50px;
+}
+.contact form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.contact input{
+    outline: 0;
+    border-width: 0 0 1px;
+    border-color: rgb(196, 196, 196);
+    margin: 35px;
+}
+
+::placeholder{
+    font-size: 14px;
+    color: black;
+    opacity: 0.9;
+}
+
+.contact button{
+    width: 50%;
+    height: 40px;
+    margin-bottom: 100px;
+    border-radius: 22px;
+    border: none;
+    background-color: #ff6565;
+    color: white;
+    cursor: pointer;
+    transition: opacity 150ms;
+}
+
+.contact button:hover{
+    color: rgb(196, 196, 196);
+    opacity: 1;
+}
 
 /*Footer
  ================== */
  .footer{
-    background-color: 071629;
+    background-color: #071629;
     max-width: 1000px;
+    padding: 20px;
+    margin: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    
  }
 
 .contact-us {
  display: flex;
  justify-content: space-between;
+ margin: 20px;
+ padding: 20px; 
 }
+
+.social-links a{
+    padding: 5px;
+}
+
+.social-links a:hover{
+    cursor: pointer;
+}
+
 
 .small{
  display: flex;
- justify: center;
+ justify-content: center;
+ color: rgb(196, 196, 196);
 }
